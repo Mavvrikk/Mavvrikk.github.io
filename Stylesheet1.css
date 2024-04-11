@@ -1,0 +1,223 @@
+.parallax {
+  /* The image used */
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20231012/pngtree-sleek-and-earthy-textured-background-of-polished-brown-wood-image_13616012.png");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.circular--portrait {
+  margin-left: 45%;
+  margin-top: 5%;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  height: 250px;
+  width: 400px;
+  padding: 20px;
+}
+
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+ }
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.pdf {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+}
+.pdf,
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.parallax-heading{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav {
+  margin-top: 0px;
+  background-color: #5c5c5c;
+  color: white;
+}
+
+a:link, a:visited {
+  background-color: #5c5c5c;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+white {
+  color: white;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+
+  /*attempt to mess with width */
+  width: 100%; /*100%*/
+
+}
+
+h4 {
+  /*font-weight: bold;*/
+  text-align: center;
+  width: 100%;
+  color: white;
+
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+body {
+  background-color: #5c5c5c;
+  font-size: 18px ;
+  color: white;
+}
+
+li a {
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+
+}
+
+.glyphcon {
+  float: right;
+}
+
+nav li {
+  margin-left: 150px; /* adam changed to 150 */
+}
+
+
+
+nav li:hover {
+  background-color: darkred;
+}
+
+.userInput {
+  /* Tell the input to use all the available space */
+  flex-grow:2;
+  /* And hide the input's outline, so the form looks like the outline */
+  border:none;
+}
+
+/* remove the input focus blue box, it will be in the wrong place. */
+form:focus {
+  outline: none;
+}
+
+/* Add the focus effect to the form so it contains the button */
+form:focus-within {
+  /*outline: 1px solid blue*/
+}
+
+button {
+  /* Just a little styling to make it pretty */
+  border:1px solid dodgerblue;
+  border-radius: 2px;
+  background: dodgerblue;
+  color:white;
+}
+
+button:hover {
+  /*background-color: darkslateblue;*/
+}
+
+
+.bttncontainer {
+  margin-top: 25px;
+  margin-left: 350px;
+  display: flex;
+  position: relative;
+}
+
+.genButtn {
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  position: relative;
+}
+
+.footerTxt {
+  text-align: center;
+}
+
+.vidContainer {
+  margin-left: 300px;
+  margin-bottom: 50px;
+}
+
+
+body {
+  margin: 0;
+}
